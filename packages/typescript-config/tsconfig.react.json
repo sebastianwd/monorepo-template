@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+  },
+  "exclude": [
+    "${configDir}/out",
+    "${configDir}/dist",
+    "${configDir}/node_modules"
+  ],
+  "include": [
+    "${configDir}/*.mjs",
+    "${configDir}/**/*.ts",
+    "${configDir}/**/*.tsx",
+  ],
+}
