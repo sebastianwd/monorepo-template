@@ -1,3 +1,83 @@
 @import 'tailwindcss' source('../src');
 
 @import 'tw-animate-css';
+
+:root {
+  --color-background: #ffffff;
+  --color-foreground: #020817;
+  --color-primary: #0f172a;
+  --color-primary-foreground: #f8fafc;
+  --color-secondary: #f1f5f9;
+  --color-secondary-foreground: #0f172a;
+  --color-muted: #f1f5f9;
+  --color-muted-foreground: #64748b;
+  --color-accent: #f8fafc;
+  --color-accent-foreground: #0f172a;
+  --color-border: #e2e8f0;
+  --color-input: #e2e8f0;
+  --color-ring: #0f172a;
+}
+
+[data-theme='dark'] {
+  --color-background: #020817;
+  --color-foreground: #f8fafc;
+  --color-primary: #f8fafc;
+  --color-primary-foreground: #0f172a;
+  --color-secondary: #1e293b;
+  --color-secondary-foreground: #f8fafc;
+  --color-muted: #1e293b;
+  --color-muted-foreground: #94a3b8;
+  --color-accent: #1e293b;
+  --color-accent-foreground: #f8fafc;
+  --color-border: #1e293b;
+  --color-input: #1e293b;
+  --color-ring: #f8fafc;
+}
+
+[data-theme='solarized-dark'] {
+  --color-background: #002b36;
+  --color-foreground: #93a1a1;
+  --color-primary: #93a1a1;
+  --color-primary-foreground: #002b36;
+  --color-secondary: #073642;
+  --color-secondary-foreground: #93a1a1;
+  --color-muted: #073642;
+  --color-muted-foreground: #586e75;
+  --color-accent: #073642;
+  --color-accent-foreground: #93a1a1;
+  --color-border: #073642;
+  --color-input: #073642;
+  --color-ring: #93a1a1;
+}
+
+[data-theme='solarized-light'] {
+  --color-background: #fdf6e3;
+  --color-foreground: #657b83;
+  --color-primary: #586e75;
+  --color-primary-foreground: #fdf6e3;
+  --color-secondary: #eee8d5;
+  --color-secondary-foreground: #586e75;
+  --color-muted: #eee8d5;
+  --color-muted-foreground: #93a1a1;
+  --color-accent: #eee8d5;
+  --color-accent-foreground: #586e75;
+  --color-border: #eee8d5;
+  --color-input: #eee8d5;
+  --color-ring: #586e75;
+}
+
+@theme inline {
+  --color-background: var(--color-background);
+  --color-foreground: var(--color-foreground);
+  --color-primary: var(--color-primary);
+  --color-primary-foreground: var(--color-primary-foreground);
+  --color-secondary: var(--color-secondary);
+  --color-secondary-foreground: var(--color-secondary-foreground);
+  --color-muted: var(--color-muted);
+  --color-muted-foreground: var(--color-muted-foreground);
+  --color-accent: var(--color-accent);
+  --color-accent-foreground: var(--color-accent-foreground);
+  --color-border: var(--color-border);
+  --color-input: var(--color-input);
+  --color-ring: var(--color-ring);
+}

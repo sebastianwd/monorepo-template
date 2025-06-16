@@ -1,7 +1,7 @@
+import * as TanstackQuery from '@repo/trpc/tanstack-query'
 import { createRouter as createTanstackRouter } from '@tanstack/react-router'
 import { routerWithQueryClient } from '@tanstack/react-router-with-query'
 
-import * as TanstackQuery from './integrations/tanstack-query/root-provider'
 import { routeTree } from './routeTree.gen'
 
 // Create a new router instance

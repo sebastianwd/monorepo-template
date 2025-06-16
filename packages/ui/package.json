@@ -18,10 +18,12 @@
     "@types/react-dom": "catalog:"
   },
   "dependencies": {
+    "@radix-ui/react-select": "^2.2.5",
     "@radix-ui/react-slot": "catalog:",
     "@tailwindcss/postcss": "catalog:",
     "class-variance-authority": "catalog:",
     "clsx": "catalog:",
+    "lucide-react": "^0.513.0",
     "postcss": "catalog:",
     "react": "catalog:",
     "react-dom": "catalog:",
