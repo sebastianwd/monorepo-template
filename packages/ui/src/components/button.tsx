@@ -5,7 +5,7 @@ import type * as React from 'react'
 import { cn } from '../utils/cn'
 
 const buttonVariants = cva(
-  "inline-flex shrink-0 cursor-pointer items-center justify-center gap-2 rounded-md text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-zinc-950 focus-visible:ring-[3px] focus-visible:ring-zinc-950/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-red-500 aria-invalid:ring-red-500/20 dark:focus-visible:border-zinc-300 dark:focus-visible:ring-zinc-300/50 dark:aria-invalid:border-red-900 dark:aria-invalid:ring-red-500/40  dark:dark:aria-invalid:ring-red-900/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4",
+  "inline-flex shrink-0 cursor-pointer items-center justify-center gap-2 rounded-md text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-zinc-950 focus-visible:ring-[3px] focus-visible:ring-zinc-950/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-red-500 aria-invalid:ring-red-500/20 dark:focus-visible:border-zinc-300 dark:focus-visible:ring-zinc-300/50 dark:aria-invalid:border-red-900 dark:aria-invalid:ring-red-500/40 dark:dark:aria-invalid:ring-red-900/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4",
   {
     variants: {
       variant: {
@@ -14,7 +14,7 @@ const buttonVariants = cva(
         destructive:
           'bg-red-500 text-white shadow-xs hover:bg-red-500/90 focus-visible:ring-red-500/20 dark:bg-red-500/60 dark:bg-red-900 dark:dark:bg-red-900/60 dark:hover:bg-red-900/90 dark:dark:focus-visible:ring-red-900/40 dark:focus-visible:ring-red-500/40 dark:focus-visible:ring-red-900/20',
         outline:
-          'border bg-white shadow-xs hover:bg-zinc-100 hover:text-zinc-900 dark:border-zinc-200 dark:dark:border-zinc-800 dark:bg-zinc-200/30 dark:bg-zinc-950 dark:dark:bg-zinc-800/30 dark:dark:hover:bg-zinc-800/50 dark:hover:bg-zinc-200/50 dark:hover:bg-zinc-800 dark:hover:text-zinc-50',
+          'border bg-white shadow-xs hover:bg-zinc-100 hover:text-zinc-900 dark:border-zinc-200 dark:bg-zinc-200/30 dark:bg-zinc-950 dark:dark:border-zinc-800 dark:dark:bg-zinc-800/30 dark:dark:hover:bg-zinc-800/50 dark:hover:bg-zinc-200/50 dark:hover:bg-zinc-800 dark:hover:text-zinc-50',
         secondary:
           'bg-zinc-100 text-zinc-900 shadow-xs hover:bg-zinc-100/80 dark:bg-zinc-800 dark:text-zinc-50 dark:hover:bg-zinc-800/80',
         ghost:

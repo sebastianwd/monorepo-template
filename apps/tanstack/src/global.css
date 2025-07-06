@@ -1,4 +1,4 @@
 @import 'tailwindcss' source('../src');
 
-@import '../../../packages/ui/src/main.css';
+@import '../../../packages/ui/src/global.css';
 @source '../../../packages/ui';
