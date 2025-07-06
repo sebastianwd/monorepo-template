@@ -34,6 +34,23 @@
   --color-ring: #f8fafc;
 }
 
+[data-theme='system'] {
+  color-scheme: light dark;
+  --color-background: light-dark(#ffffff, #020817);
+  --color-foreground: light-dark(#020817, #f8fafc);
+  --color-primary: light-dark(#0f172a, #f8fafc);
+  --color-primary-foreground: light-dark(#f8fafc, #0f172a);
+  --color-secondary: light-dark(#f1f5f9, #1e293b);
+  --color-secondary-foreground: light-dark(#0f172a, #f8fafc);
+  --color-muted: light-dark(#f1f5f9, #1e293b);
+  --color-muted-foreground: light-dark(#64748b, #94a3b8);
+  --color-accent: light-dark(#f8fafc, #1e293b);
+  --color-accent-foreground: light-dark(#0f172a, #f8fafc);
+  --color-border: light-dark(#e2e8f0, #1e293b);
+  --color-input: light-dark(#e2e8f0, #1e293b);
+  --color-ring: light-dark(#0f172a, #f8fafc);
+}
+
 [data-theme='solarized-dark'] {
   --color-background: #002b36;
   --color-foreground: #93a1a1;

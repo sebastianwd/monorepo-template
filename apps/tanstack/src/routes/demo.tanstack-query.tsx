@@ -17,7 +17,11 @@ function TanStackQueryDemo() {
   return (
     <div className='p-4'>
       <h1 className='mb-4 text-2xl'>People list</h1>
-      <ul>{data?.map((person) => <li key={person.name}>{person.name}</li>)}</ul>
+      <ul>
+        {data?.map((person) => (
+          <li key={person.name}>{person.name}</li>
+        ))}
+      </ul>
     </div>
   )
 }

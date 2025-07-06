@@ -6,8 +6,8 @@ import { TanStackRouterDevtools } from '@tanstack/react-router-devtools'
 import type { TRPCOptionsProxy } from '@trpc/tanstack-react-query'
 
 import { MainLayout } from '~/components/main-layout'
+import appCss from '~/global.css?url'
 import { LayoutAddition } from '~/integrations/tanstack-query/layout'
-import appCss from '~/main.css?url'
 import { ThemeProvider } from '~/providers/theme-provider'
 
 export interface MyRouterContext {

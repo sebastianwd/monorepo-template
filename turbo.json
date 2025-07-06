@@ -13,9 +13,6 @@
     "tsc": {
       "dependsOn": ["^tsc"]
     },
-    "ncu": {
-      "dependsOn": ["^ncu"]
-    },
     "dev": {
       "cache": false,
       "persistent": true

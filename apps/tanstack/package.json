@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vinxi dev",
-    "start": "vinxi start",
-    "build": "vinxi build",
+    "dev": "vite dev",
+    "build": "vite build && tsc --noEmit",
+    "start": "vite start",
     "serve": "vite preview",
     "test": "vitest run",
     "lint": "eslint",
@@ -34,7 +34,6 @@
     "react-dom": "catalog:",
     "superjson": "catalog:",
     "tailwindcss": "catalog:",
-    "vinxi": "catalog:",
     "vite-tsconfig-paths": "catalog:",
     "zod": "catalog:",
     "usehooks-ts": "catalog:"
@@ -42,7 +41,6 @@
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
-    "@tanstack/eslint-config": "catalog:",
     "@testing-library/dom": "catalog:",
     "@testing-library/react": "catalog:",
     "@types/react": "catalog:",
